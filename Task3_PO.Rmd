@@ -1,0 +1,35 @@
+---
+title: "Part3"
+author: "Me"
+date: "2/19/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      message = FALSE,
+                      warning = FALSE)
+library(sf)
+library(tmap)
+library(mapview)
+library(tidyverse)
+library(janitor)
+library(lubridate)
+library(here)
+library(paletteer)
+```
+
+### **Part 3** 
+
+This will be creating a map which shows he different land use and covers for the Hawaiian islands. It also displays the different watersheds for all of the Hawaiian islands as well. 
+
+```{r}
+#read in the necessary shape files 
+
+land_use <- read_sf(dsn = here::here("data"), layer ="Land_Use_Land_Cover_LULC") %>% 
+  clean_names() 
+
+#read in watershed data
+water_sheds <- read_sf(dsn = here::here("data"), layer="Watersheds")
+```
+
