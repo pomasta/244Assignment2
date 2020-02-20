@@ -1,0 +1,18 @@
+---
+title: "Open Science"
+author: "Peter Omasta"
+date: "2/20/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+	The open science movement is inspired by an ethos of transparency, accountability, and reproducibility among researchers and scientists. The fundamental goal of the movement is to make science and data more accessible to the public and other researchers. In the age of metadata it is nearly impossible for anyone researcher or organization to process all of the incoming data and information; open science encourages collaboration and allows for many hands and eyes to make light work of these large data sets. It removes barriers that in prevent scientists and members of the public from reading and engaging in research that is relevant to their life, allowing for a more educated populace. Open science practices can also personally benefit the researchers who participate and engage in these types of practices. It costs less to publish in open science journals and these journals allow authors to retain ownership of their publication as opposed to paying a significant amount of money to have a paper published and the rights signed away to a subscription based journal. Open science journals and publications have been shown to increase the number of citations, media opportunities, and funding opportunities as opposed to publication in subscription based journals. 
+
+	While there are many benefits to open science and publication, there are potential pitfalls of engaging in practice. One concern that has been voiced is that a researcher may get beat to publication on their research by another individual if they make the data open and available to the public. This concern is reinforced by cultural and economic factors that favor researchers who are well funded research institutions and universities. For smaller universities or early career researchers who do not have an array of research assistants, post-docs, and funding it can be difficult to allocate the necessary time to publishing papers. If these large institutions start to scoop up open access data and preempt publication of other communities, it reinforces and can stratify the haves and have-nots of scientific research. Being that grants and funding are often given out based on the clout of the scientist performing research, not publishing a paper because someone used your data can have career impacting effects. 
+
+	In the past when I was an undergraduate I helped publish a paper in Ecosphere as I was working with a few early career post-docs and PhD students that were chasing for major publication. Since coming to Bren and learning about open science philosophies I have been working on github and making almost all of my repositories open. I have sent articles like the ones we read to today to different friends who are pursuing doctoral degrees at different institutions. I think Bren students are in a position to advocate for open data science as we will be working for businesses, non-profits, and government organizations that have collected vast quantities of data and we can advocate for making that more publically available because we are not going to be tied to a defense. 
+	
+	Word Count: 494
